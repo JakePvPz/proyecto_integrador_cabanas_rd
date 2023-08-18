@@ -1,0 +1,16 @@
+.reserveBtn {
+  background-color: #0071c2;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+  padding: 12px 20px;
+  border: 0;
+  outline: 0;
+}
+.reserveBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
