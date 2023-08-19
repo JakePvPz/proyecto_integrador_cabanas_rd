@@ -27,13 +27,7 @@ mongoose.connection.on("disconnected", () => {
 });
 
 //middlewares
-app.use(cors(
-  {
-    origin: ["https://proyecto-integrador-cabanas-rd-client.vercel.app"],
-    methods: ["POST", "GET"],
-    credentials: true
-  }
-));
+app.use(cors());
 app.use(cookieParser());
 app.use(express.json());
 
