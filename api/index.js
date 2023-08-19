@@ -29,7 +29,7 @@ mongoose.connection.on("disconnected", () => {
 //middlewares
 app.use(cors(
   {
-    origin: ["https://proyecto-integrador-cabanas-rd-client-pj0hxem0l.vercel.app"],
+    origin: ["https://proyecto-integrador-cabanas-rd-admin.vercel.app"],
     methods: ["POST", "GET"],
     credentials: true
   }
